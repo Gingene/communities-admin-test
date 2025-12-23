@@ -1,6 +1,6 @@
 import { AuthProvider, fetchUtils } from "ra-core";
 
-const API_URL = "https://concert-now.dewed.one/api";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "";
 
 // Storage keys
 const USER_KEY = "user";
@@ -18,7 +18,6 @@ const getUser = () => {
 };
 
 const getToken = (): string | null => {
-  console.log(process.env.NEXT_PUBLIC_API_URL);
   try {
     const tokenString = localStorage.getItem(TOKEN_KEY);
     if (!tokenString) return null;
