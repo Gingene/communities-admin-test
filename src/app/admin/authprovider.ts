@@ -8,6 +8,7 @@ const TOKEN_KEY = "access_token";
 
 // Helper: Get user from localStorage
 const getUser = () => {
+  console.log(process.env.NEXT_PUBLIC_API_URL);
   const userString = localStorage.getItem(USER_KEY);
   if (!userString) return null;
   try {
