@@ -43,6 +43,10 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Use a secret
+        env:
+          NEXT_PUBLIC_EXPRESS_API_URL: ${{ secrets.NEXT_PUBLIC_EXPRESS_API_URL }}
+
       - name: Setup Pages
         id: setup_pages
         uses: actions/configure-pages@v5
