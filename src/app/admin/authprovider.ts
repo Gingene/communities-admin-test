@@ -1,6 +1,6 @@
 import { AuthProvider, fetchUtils } from "ra-core";
 
-const API_URL = process.env.NEXT_PUBLIC_EXPRESS_API_URL || "";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "";
 
 // Storage keys
 const USER_KEY = "user";
