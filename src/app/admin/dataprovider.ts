@@ -1,6 +1,6 @@
 import { DataProvider, fetchUtils } from "ra-core";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "";
+const API_URL = "https://concert-now.dewed.one/api";
 
 // Storage keys
 const USER_KEY = "user";
