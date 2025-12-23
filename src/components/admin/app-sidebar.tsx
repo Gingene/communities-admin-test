@@ -21,7 +21,7 @@ import {
   useSidebar,
 } from "@/components/ui/sidebar";
 import { Skeleton } from "@/components/ui/skeleton";
-import { House, List, Shell } from "lucide-react";
+import { House, List, Shell, User } from "lucide-react";
 
 /**
  * Navigation sidebar displaying menu items, allowing users to navigate between different sections of the application.
@@ -77,6 +77,7 @@ export function AppSidebar() {
                     onClick={handleClick}
                   />
                 ))}
+              <UserMenuItem />
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
@@ -159,6 +160,19 @@ export const ResourceMenuItem = ({
             <List />
           )}
           {getResourceLabel(name, 2)}
+        </Link>
+      </SidebarMenuButton>
+    </SidebarMenuItem>
+  );
+};
+
+export const UserMenuItem = ({ onClick }: { onClick?: () => void }) => {
+  return (
+    <SidebarMenuItem>
+      <SidebarMenuButton asChild>
+        <Link to="/me" onClick={onClick}>
+          <User />
+          ME
         </Link>
       </SidebarMenuButton>
     </SidebarMenuItem>
