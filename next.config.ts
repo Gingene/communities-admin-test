@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
   basePath: isProd ? "/communities-admin-test" : "",
   assetPrefix: isProd ? "/communities-admin-test/" : "",
   images: { unoptimized: true },
+  env: {
+    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL,
+  },
 };
 
 export default nextConfig;
