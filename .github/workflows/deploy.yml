@@ -24,8 +24,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: production
     env:
-      NEXT_PUBLIC_API_URL: https://concert-now.dewed.one/api
+      NEXT_PUBLIC_API_URL: ${{ vars.NEXT_PUBLIC_API_URL }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
