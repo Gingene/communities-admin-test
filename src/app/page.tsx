@@ -1,4 +1,5 @@
 import Image from "next/image";
+console.log(process.env.NEXT_PUBLIC_API_URL);
 
 export default function Home() {
   return (
