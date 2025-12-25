@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
-2:I[46374,["/estate-delivery-system-frontend/_next/static/chunks/a960b4708d60615b.js","/estate-delivery-system-frontend/_next/static/chunks/a0dd95e927526e94.js"],"default"]
-3:I[37181,["/estate-delivery-system-frontend/_next/static/chunks/a960b4708d60615b.js","/estate-delivery-system-frontend/_next/static/chunks/a0dd95e927526e94.js"],"default"]
-0:{"buildId":"QQhwg__Ivgi7k3w45JFhq","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+2:I[46374,["/communities-admin-test/_next/static/chunks/a960b4708d60615b.js","/communities-admin-test/_next/static/chunks/a0dd95e927526e94.js"],"default"]
+3:I[37181,["/communities-admin-test/_next/static/chunks/a960b4708d60615b.js","/communities-admin-test/_next/static/chunks/a0dd95e927526e94.js"],"default"]
+0:{"buildId":"orIrc_QsVUdn-_HMyPk8F","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
