@@ -3,8 +3,8 @@ self.__BUILD_MANIFEST = {
     "afterFiles": [],
     "beforeFiles": [
       {
-        "source": "/communities-admin-test//_next/:path+",
-        "destination": "/communities-admin-test/_next/:path+"
+        "source": "/estate-delivery-system-frontend//_next/:path+",
+        "destination": "/estate-delivery-system-frontend/_next/:path+"
       }
     ],
     "fallback": []
